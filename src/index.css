@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-image: url('C:\Users\RAHUL\OneDrive\Desktop\Web Development Lab\online-book\src\assets\book-store-bg.webp');
+    object-fit: cover;
+}
+
+
+#login-icon:hover, #home-icon:hover, #catalog-icon:hover, #cart-icon:hover{
+    cursor: pointer;
+    transform: translateY(-6px);
+    box-shadow: 0px 10px  10px rgba(223, 217, 217, 0.2);
+    
+}
+input[type="text"]:focus{
+    outline: none;
+}
+
+.book-card-container:hover{
+    cursor:pointer;
+    transform: translate(-2px, -10px);
+    box-shadow: 9px 15px 10px rgb(0, 0, 0);
+    transition: transform 0.5s ease-in-out;
+    transition: box-shadow transform 0.2s ease-in-out;
+}
