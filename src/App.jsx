@@ -10,15 +10,11 @@ function App() {
   return (
     <>
       <TopNavbar/>
-      <Routes>
-        <Route path="/cart" element={<CartPage />} />
-        {/* other routes */}
-      </Routes>
       <main className="flex flex-col">
         
             <Routes>
               <Route path="/" element={<HomePage />} />
-
+              <Route path="/cart" element={<CartPage />} />
             </Routes>
         
       </main>
